@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.task__h {
+  color: #b3a407;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-top: 16px;
+  padding-left: 30px;
+
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.form {
+  margin-top: 24px;
+  padding-left: 30px;
+}
+
+label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+
+input[type='number'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  display: block;
+  margin-top: 8px;
+  /* ==> flex-shrink: 0; нафига они в макет постоянно вставляют это свойство? <==*/
+  padding: 8px 8px 8px 16px;
+}
+
+fieldset {
+  margin-top: 30px;
+  width: 360px;
+  height: 64px;
+
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+fieldset:hover,
+fieldset:focus {
+  stroke-width: 1px;
+
+  border: 1.8px solid #000;
+  outline: none;
+}
+
+legend {
+  margin-left: 28px;
+
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+
+input[type='radio'] {
+  margin-left: 48px;
+  margin-top: 10px;
+  padding: 28px 45px 12px 48px;
+  width: 20px;
+  height: 20px;
+
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+button[type='submit'] {
+  display: flex;
+  width: 360px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.64px;
+  border: none;
+  margin-top: 24px;
+}
+
+button:hover,
+button:focus {
+  background: #6c8cff;
+}

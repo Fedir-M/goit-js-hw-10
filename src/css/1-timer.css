@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  padding-left: 30px;
+}
+
+.task__h {
+  color: #b3a407;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-top: 16px;
+  padding-left: 30px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container {
+  width: 346px;
+  margin: 0 auto;
+}
+
+.input__wrapper {
+  display: flex;
+  column-gap: 8px;
+}
+
+input {
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  background: #fff;
+
+  margin-top: 36px;
+  padding: 8px 118px 8px 16px;
+
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  border: 1px solid #808080;
+  outline: none;
+}
+
+input:hover {
+    outline: 1px solid #000;;
+}
+
+input:active,
+input:focus {
+    outline: 0.5px solid #4E75FF;
+}
+
+input[type="text"]:disabled {
+    border: 1px solid ##808080;
+    background: #FAFAFA;
+    cursor: not-allowed;
+}
+
+button {
+  display: flex;
+  width: 75px;
+  height: 40px;
+  margin-top: 36px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4E75FF;
+  color: #ffffff;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+button:disabled{
+    border-radius: 8px;
+      background: #CFCFCF;
+      color: #989898;
+      cursor: not-allowed;
+  }
+
+button[type="button"]:active {
+    color: #FFFFFF;
+    background: #b3a407;
+}
+
+button:hover,
+button:focus {
+    color: #FFFFFF;
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+
+  column-gap: 24px;
+  margin-top: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  letter-spacing: 1.6px;
+}
+
+.label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  text-transform: uppercase;
+}
